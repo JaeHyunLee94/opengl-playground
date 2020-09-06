@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opengl_playground"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opengl_playground">
+				<Option output="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/opengl_playground" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/GLEW/include"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/GLFW/include"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/glm"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/assimp/include"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/SOIL2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 opengl_playground"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opengl_playground/fast">
+				<Option output="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/opengl_playground" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/GLEW/include"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/GLFW/include"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/glm"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/assimp/include"/>
+					<Add directory="/Users/jhlee/Desktop/project/opengl-playground/./dependencies/SOIL2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 opengl_playground/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jhlee/Desktop/project/opengl-playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Camera.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Camera.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Light.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Material.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Material.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Mesh.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Mesh.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Model.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Model.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Shader.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Shader.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Texture.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/Texture.h">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/main.cpp">
+			<Option target="opengl_playground"/>
+		</Unit>
+		<Unit filename="/Users/jhlee/Desktop/project/opengl-playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

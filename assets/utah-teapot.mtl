@@ -1,0 +1,12 @@
+# Blender MTL File: 'utah-teapot.blend'
+# Material Count: 1
+
+newmtl Clear_Coat_Plastic
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.727575 0.727575 0.727575
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
